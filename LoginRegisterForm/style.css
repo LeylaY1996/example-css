@@ -13,7 +13,7 @@ body{
     margin-top: 60px;
     margin-bottom: 18px;
     width: 80px;
-    animation: mover ls infinite alternate;
+    /* animation: mover ls infinite alternate; */
 }
 
 .register-left p {
@@ -68,8 +68,8 @@ body{
     background: #ff5722;
 }
 
-@keyframes mover {
+/* @keyframes mover {
     0%{transform: translateY(0);}
     100%{transform: translateY(-20);}
 
-}
+} */
