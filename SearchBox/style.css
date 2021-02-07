@@ -1,0 +1,55 @@
+body{
+    margin: o;
+    padding: 0;
+}
+
+.header {
+    height: 100vh;
+    background-image: url(image.jpg),linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7));
+    background-size: cover;
+    background-position:center ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+}
+h1{
+    text-align: center;
+    color: rgb(163, 146, 146);
+    margin-bottom: 70px;
+    font-size: 45px;
+    letter-spacing: 2px;
+}
+
+span {
+    color:#f44336;
+}
+.search-field {
+    height: 50px;
+    padding: 10px;
+}
+
+.skills {
+    width: 400px;
+}
+.location {
+    width: 200px;
+}
+
+.search-btn {
+    height: 50px;
+    width: 150px;
+    background: #f44336;
+    border: none;
+    color: #fff;
+}
+
+.search-btn:hover {
+    background: #bb0d00;
+    cursor: pointer;
+}
+
+.form-box {
+    background: rgba(87, 83, 83, 0.5);
+    padding: 30px 50px;
+}
