@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Menu Design</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="nav-bar">
+            <ul>
+                <li><a href="">Home</a></li>
+    
+                <li><a href="">Web Design<span class="arrow-down"></span></a>
+                    <ul class="dropdown">
+                        <li><a href="">HTML</a></li>
+                        <li><a href="">CSS</a></li>
+                        <li><a href="">PHP</a></li>
+                        <li><a href="">Javascript</a></li>
+    
+                    </ul>
+                </li>
+    
+                <li><a href="">Dijital Marketing<span class="arrow-down"></span></a>
+                    <ul class="dropdown">
+                        <li><a href="">SEO</a></li>
+                        <li><a href="">SMM</a></li>
+                    </ul>
+                </li>
+    
+                <li><a href="">Mobile App</a></li>
+                <li><a href="">Blog</a></li>
+                <li><a href="">Contact Us</a></li>
+    
+            </ul>
+        </div>
+        <div class="nav-mobile">
+            <div class="menu-icon">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+<script>
+    $(document).ready(function(){
+        $('.menu-icon').click(function(){
+            $('.nav-bar').toggleClass('visible');
+        });
+    });
+</script>
